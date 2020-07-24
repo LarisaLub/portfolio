@@ -1,0 +1,44 @@
+.row {
+    text-align: center;
+    justify-content: space-between;
+    flex-flow: wrap;
+    margin-top: 30px;
+
+    .send {
+        margin-top: 34px;
+        padding: 10px 40px 4px 4px;
+        margin-left: 70px;
+        background: #000000;
+        border-radius: 50px;
+
+        .message {
+            font-family: Gilroy-Bold;
+            font-size: 18px;
+            line-height: 22px;
+            color: #FFFFFF;
+            padding-left: 40px;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 1024px) {}
+
+
+@media (max-width: 767px) {}
+
+@media (max-width: 415px) {
+
+    .row {
+        .send {
+            margin-top: 34px;
+            padding: 12px 138px 5px 7px;
+            margin-left: 3px;
+
+            .message {
+                left: 108px;
+            }
+        }
+
+    }
+}

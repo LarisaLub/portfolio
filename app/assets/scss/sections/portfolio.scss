@@ -1,0 +1,59 @@
+.girl {
+    margin-top: 47px;
+}
+
+.fashion girl {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 99px;
+}
+
+.reebok {
+    margin-top: 47px;
+}
+
+.mini11 {
+    display: none;
+}
+
+.mini1 {
+    display: none;
+}
+
+.text_portfol {
+    margin-top: 45px;
+    margin-bottom: 99px;
+}
+
+@media (max-width: 1024px) {}
+
+
+@media (max-width: 767px) {}
+
+@media (max-width: 415px) {
+    .girl {
+        display: none;
+    }
+
+    .camera {
+        display: none;
+    }
+
+    .mini11 {
+        padding: 25px auto;
+        display: block;
+    }
+
+    .mini1 {
+        padding: 25px 25px;
+        display: block;
+    }
+
+    .text_portfol {
+        margin-top: 15px;
+        margin-bottom: 60px;
+    }
+
+
+}

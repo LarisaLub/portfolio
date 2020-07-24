@@ -1,0 +1,56 @@
+.white {
+  padding: 32px 0;
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+
+.sign {
+  margin-top: 24px;
+}
+
+.bott {
+  padding-bottom: 40px;
+}
+
+.signer {
+  margin-top: 24px;
+  padding-bottom: 64px;
+}
+
+.sta {
+  padding-bottom: 111px;
+}
+
+.phot {
+  padding-bottom: 111px;
+
+}
+
+@media (max-width: 1024px) {}
+
+
+@media (max-width: 767px) {}
+
+@media (max-width: 415px) {
+
+
+  .photo {
+    display: none;
+  }
+
+  .long {
+    padding: 36px 29px 83px 29px;
+  }
+
+  .sta {
+    padding-bottom: 61px;
+  }
+
+  .phot {
+    padding-bottom: 61px;
+  }
+}
