@@ -13,6 +13,7 @@
 @media (max-width: 767px) {
     .row.about {
         padding: 0 20px;
+        width: calc(100% - 40px);
     }
 }
 

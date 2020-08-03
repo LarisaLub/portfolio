@@ -14,7 +14,7 @@
         display: flex;
         width: 100%;
         justify-content: space-between;
-        align-items: flex-end;
+        align-items: flex-start;
     }
 }
 
@@ -70,6 +70,7 @@ p {
     .main-photo {
         flex-direction: column;
 
+
         .box {
             margin-top: 50px;
             flex-direction: column;
@@ -108,10 +109,13 @@ p {
 
     .box {
         flex-direction: column;
+
     }
 
     .long {
         display: block;
+        padding: 36px 0 83px 0;
+        width: 100%;
 
     }
 }

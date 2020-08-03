@@ -11,13 +11,20 @@
   padding: 0;
 }
 
+
+
 li {
   list-style: none;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .container {
   width: 1180px;
   margin: 0 auto;
+  box-sizing: padding-box;
 
 }
 
@@ -37,6 +44,8 @@ li {
     text-align: center;
     padding-bottom: 20px;
   }
+
+
 
   .text {
     margin: 5px auto;
@@ -72,6 +81,7 @@ li {
 @media (max-width: 1024px) {
   .container {
     width: 900px;
+    box-sizing: border-box;
   }
 }
 
@@ -101,7 +111,7 @@ li {
   .flex_box {
     text-align: center;
     flex-direction: column;
-    width: 375px;
+
   }
 
   h3 {
